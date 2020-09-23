@@ -15,7 +15,6 @@ def deletefile():
 
 def notifyFile(filename, level, speed):
     import time
-    timeis = time.localtime()
     a = "ระดับน้ำ " + str(level) + " เมตร ความเร็ว " + str(speed) + ' cm/s'
     file = {'imageFile':open(filename,'rb')}
     payload = {'message': a}
