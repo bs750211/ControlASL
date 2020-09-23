@@ -42,7 +42,7 @@ while a < 1:
     if h1[0] or h1[1] or h1[2] or h1[3] or h1[4] or h1[5] or h1[6] or h1[7] == time.strftime('%H', timeis) and m[0] == time.strftime('%M', timeis):
         print("in condition read Sonser")
         print("Wait read Sonser")
-        readSensor1()        #Function for Simulation
+        readSensor1()      #Function for Simulation
         #readSensor()
         w_level, w_speed = readSensor()
         print("read Sonser Success")
