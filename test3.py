@@ -29,6 +29,7 @@ for i in range(8):
         h[i] = str(h[i])
     print(h1[i])
 
+#test time condition 
 if h1[0] == 22 or h1[1] == 22 or h1[2] == 22 or h1[3] == 22 or h1[4] == 22 or h1[5] == 22 or h1[6] == 22 or h1[7] == 22 and m[0] == 50:
     print("in condition")
 else:
