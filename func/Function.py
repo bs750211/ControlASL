@@ -32,7 +32,7 @@ def notifyFile(filename, level, speed):
 def _lineNotify(payload, file=None):
     import requests
     url = 'https://notify-api.line.me/api/notify'
-    token = 'grkyGCeCVgTduZHOipESEed6AKiDeceKqdjxS1BcCHa'  # For กลุ่ม จนท. คอม
+    token = 'W8QLoGLoqytOkmNvHSF5H9XC7Gd6yTwawooWPbHCWCQ'  # For กลุ่ม ทดสอบระบบ
     #token = 'x4RaX9Oc3kxsQbjnBilrSovIz5hOsGl4FD6MIFMemvQ'  # For กลุ่ม CCTV ผอ.
     headers = {'Authorization': 'Bearer ' + token}
     return requests.post(url, headers=headers, data=payload, files=file)
@@ -57,3 +57,6 @@ def readSensor():
             print("This string does not comply with the UTF-8 standard")
     s = dstrng.split()
     return s[5], s[7]
+
+def readSensor1():
+    return 5.000, 140.0
