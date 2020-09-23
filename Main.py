@@ -17,7 +17,7 @@ h[7] = 21
 #Config minute Alert
 m[0] = 50
 
-#hour read Sensor
+#cal hour read Sensor & convart type h[]
 for i in range(8):
     if h[i] == 0:
         h1[i] = "23"
