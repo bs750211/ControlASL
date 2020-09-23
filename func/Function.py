@@ -58,5 +58,6 @@ def readSensor():
     s = dstrng.split()
     return s[5], s[7]
 
+#for simulation sensor
 def readSensor1():
     return 5.000, 140.0
